@@ -4,7 +4,7 @@
 
 &nbsp;
 
-Twoim zadaniem będzie przy pomocy narzędzia Debbuger znaleźć rozwiązanie problemu związanego z prawidłowym liczeniem ceny za zakupy.
+Twoim zadaniem będzie przy pomocy narzędzia Debugger znaleźć rozwiązanie problemu związanego z prawidłowym liczeniem ceny za zakupy.
 
 Obecnie w konsoli pojawia się jakiś dziwny napis w stylu: `[object Object]201.57`.
 

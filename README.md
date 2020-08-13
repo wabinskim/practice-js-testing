@@ -5,7 +5,7 @@ Umiejętność testowanie i debuggowanie aplikacji jest niezbędna w pracy progr
 Pozwala pisać lepszej jakości oprogramowanie i nie tracić mnóstwa czasu na rozwiązywanie problemów.
 
 W tym repozytorium znajdziesz zadania dotyczące:
-- [narzędzia Debbuger](https://developers.google.com/web/tools/chrome-devtools/javascript)
+- [narzędzia Debugger](https://developers.google.com/web/tools/chrome-devtools/javascript)
 - [instrukcji try ... catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
 - [testów jednostkowych](https://pl.wikipedia.org/wiki/Test_jednostkowy) wykorzystując [Jest](https://jestjs.io/) zgodnie z duchem [TDD](https://pl.wikipedia.org/wiki/Test-driven_development)
 
