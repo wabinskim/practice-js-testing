@@ -1,0 +1,25 @@
+{
+  "name": "practice-js-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-03": "jest 03/ --watch",
+    "test-04": "jest 04/ --watch",
+    "test-05": "jest 05/ --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devmentor-pl/practice-js-testing/issues"
+  },
+  "homepage": "https://github.com/devmentor-pl/practice-js-testing#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "jest": "^26.3.0",
+    "jest-babel": "^1.0.1"
+  }
+}
