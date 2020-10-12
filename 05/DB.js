@@ -60,25 +60,26 @@ export default class DB {
         return new Promise((resolve, reject) => {
             if(!data.id) {
                 this.async(reject, 'ID have to be set!');
-            }
+            } else {
 
-            this.async(() => {
-                let updated = null;
-                this._rows = this._rows.map(item => {
-                    if(item.id === data.id) {
-                        updated = data
-                        return updated;
+                this.async(() => {
+                    let updated = null;
+                    this._rows = this._rows.map(item => {
+                        if(item.id === data.id) {
+                            updated = data
+                            return updated;
+                        }
+            
+                        return item;
+                    });
+
+                    if(updated) {
+                        resolve(updated);
+                    } else {
+                        reject('ID not found!');   
                     }
-        
-                    return item;
                 });
-
-                if(updated) {
-                    resolve(data);
-                }
-
-                reject('ID not found!');
-            });
+            }
         });
     }
 
