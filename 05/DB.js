@@ -93,6 +93,14 @@ export default class DB {
         })
     }
 
+    getRows() {
+        return new Promise(resolve => {
+            this.async(() => {
+                resolve(this._rows);
+            });
+        })
+    }
+
     async(callback, ...params) {
         setTimeout(() => {
             callback(...params);
