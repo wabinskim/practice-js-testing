@@ -15,7 +15,7 @@ export default class DB {
                 }
             } else {
                 data.id = this._rows.reduce((acc, item) => {
-                    return acc < item ? item : acc;
+                    return acc < item.id ? item.id + 1 : acc;
                 }, 1);
             }
 
