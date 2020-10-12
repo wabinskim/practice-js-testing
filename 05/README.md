@@ -4,7 +4,16 @@
 
 &nbsp;
 
-Tym razem implementacja już istnieje. Mamy w pliku `DB.js` klasę o tej samej nazwie, która imituje bazę danych.
+Tym razem implementacja już istnieje. Mamy w pliku `DB.js` klasę o tej samej nazwie, która imituje bazę danych. Przykład jej użycia mógłby wyglądać tak jak poniżej:
+```
+const db = new DB();
+db.insert({a: 1, b: 2})
+    .then(() => db.insert({a: 3, b: 4}))
+    .then(() => db.remove(2))
+    .then(() => db.update({id: 1}))
+    .then(() => db.getRows())
+    .then(rows => console.log(rows)); // [{id: 1}]
+```
 
 Poszczególne metody wykonuja asynchornicznie operację: zapisu, odczytu, modyfikacji i usuwania danych z bazy. Przed napisaniem testów postaraj sie zrozumieć kod, którym taj został napisany.
 
