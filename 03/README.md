@@ -4,7 +4,7 @@
 
 &nbsp;
 
-W pliku `app.js` znajdziesz funkcję, która nie zawiera żadnych instrukcji.
+W pliku `app.js` znajdziesz funkcję, która nie zawiera żadnych instrukcji. Musisz je dopisać. Sama nazwa funkcji powinna Ci zasugerować co ona robi. Jakie parametry powinna posiadać i jakie dane zwracać.
 
 Twoim zadaniem będzie napisanie implementacji tej funkcji zgodnie z duchem TDD czyli red-green-refactor.
 
