@@ -28,6 +28,6 @@ PS. Pamiętaj, aby zainstalować niezbędne paczki poprzez `npm i`.
 
 &nbsp;
 
-> :arrow_left: [*poprzednie zadanie*](./../01) | [*następne zadanie*](./../03) :arrow_right:
+> :arrow_left: [*poprzednie zadanie*](./../02) | [*następne zadanie*](./../04) :arrow_right:
 
 > :no_entry: *Jeśli nie posiadasz materiałów do tego zadania, znajdziesz je na stronie [devmentor.pl](https://devmentor.pl/p/js-basics/)*
