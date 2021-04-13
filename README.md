@@ -26,7 +26,7 @@ W tym repozytorium znajdziesz zadania dotyczące:
 
 &nbsp;
 
-:arrow_left: [*poprzedni zestaw zadań (**JavaScript: # API & FETCH**)*](https://github.com/devmentor-pl/practice-js-api-and-fetch)
+:arrow_left: [*poprzedni zestaw zadań (**JavaScript: API oraz FETCH**)*](https://github.com/devmentor-pl/practice-js-api-and-fetch)
 
 ## Jak prawidłowo wykonać zadania?
 
