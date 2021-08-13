@@ -5,7 +5,7 @@
 # `#05` JavaScript: Testowanie
 
 
-Tym razem implementacja już istnieje. Mamy w pliku `DB.js` klasę o tej samej nazwie, która imituje bazę danych. Przykład jej użycia mógłby wyglądać tak jak poniżej:
+Tym razem implementacja już istnieje. W pliku `DB.js` znajdziesz klasę, która imituje bazę danych. Przykład jej użycia mógłby wyglądać tak:
 ```
 const db = new DB();
 db.insert({a: 1, b: 2})
@@ -16,15 +16,17 @@ db.insert({a: 1, b: 2})
     .then(rows => console.log(rows)); // [{id: 1}]
 ```
 
-Poszczególne metody wykonuja asynchornicznie operację: zapisu, odczytu, modyfikacji i usuwania danych z bazy. Przed napisaniem testów postaraj sie zrozumieć kod, którym taj został napisany.
+Poszczególne metody wykonują asynchronicznie operacje: zapisu, odczytu, modyfikacji i usuwania danych z bazy. Przed stworzeniem testów postaraj się zrozumieć kod, który został tutaj zamieszczony.
 
-Metoda `.async()` udaje tylko kod aynchroniczny. W rzeczywistym rozwiązaniu czego takiego byśmy nie implementowali. Tego elementu nie testujemy.
+Napisz testy dla tej klasy – po kilka dla każdej z metod. Pamiętaj, że ten kod jest asynchroniczny. W testach sprawdzaj:
+- poprawność działania implementacji,
+- przypadek, w którym obietnica jest odrzucana.
 
-Twoim zadaniem jest napisanie testów dla tej klasy. Pamiętaj, że ten kod jest asynchroniczny. Postaraj się do każdej metody napisać kilka testów. Na pewno powinieneś napisać testy, które sprawdzają poprawność działania, ale również moment kiedy obietnica jest odrzucona.
+Zwróć uwagę, że metoda `.async()` tylko udaje kod asynchroniczny. W rzeczywistym rozwiązaniu czegoś takiego byśmy nie implementowali, dlatego tego elementu nie testujemy.
 
-Testy uruchamiasz przez `npm run test-05`.
+Testy uruchomisz przez `npm run test-05`.
 
-Jeśli znajdziesz błędy w implementacji postaraj się je naprawić. 
+Jeśli znajdziesz błędy w implementacji, postaraj się je naprawić. 
 
 
 &nbsp;
