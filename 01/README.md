@@ -4,12 +4,11 @@
 
 # `#01` JavaScript: Testowanie
 
-Twoim zadaniem będzie przy pomocy narzędzia Debugger znaleźć rozwiązanie problemu związanego z prawidłowym liczeniem ceny za zakupy.
+Do kodu wkradł się błąd. Cena za zakupy jest liczona nieprawidłowo: w konsoli pojawia się jakiś dziwny napis w stylu `[object Object]201.57`.
 
-Obecnie w konsoli pojawia się jakiś dziwny napis w stylu: `[object Object]201.57`.
+Przy pomocy narzędzia Debugger znajdź rozwiązanie tego problemu.
 
-Twoim zadaniem jest naprawienie błędu w taki sposób, aby cena wyświetlana w konsoli była prawidłowa tj. 390.42.
-
+Twoim zadaniem jest naprawienie błędu w taki sposób, aby cena wyświetlana w konsoli była prawidłowa, tj. 390.42.
 
 &nbsp;
 
