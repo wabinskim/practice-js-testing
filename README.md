@@ -1,4 +1,3 @@
-
 > :dart: *Chcę mieć absolutną pewność, że **darmowe materiały**, które publikuję, spełniają Twoje oczekiwania. Dlatego oferuję Ci ebooka o wartości 39 PLN: `Jak zostać programistą? SKUTECZNY PRZEWODNIK` w zamian za [wypełnienie ankiety](https://devmentor.pl/ankieta).*
 
 &nbsp;
@@ -10,9 +9,9 @@ Umiejętność testowania i debugowania aplikacji jest niezbędna w pracy progra
 Pozwala pisać lepszej jakości oprogramowanie i nie tracić mnóstwa czasu na rozwiązywanie problemów.
 
 W tym repozytorium znajdziesz zadania dotyczące:
-- [narzędzia Debugger](https://developers.google.com/web/tools/chrome-devtools/javascript)
-- [instrukcji try ... catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
-- [testów jednostkowych](https://pl.wikipedia.org/wiki/Test_jednostkowy) wykorzystując [Jest](https://jestjs.io/) zgodnie z duchem [TDD](https://pl.wikipedia.org/wiki/Test-driven_development)
+- [narzędzia Debugger](https://developers.google.com/web/tools/chrome-devtools/javascript),
+- [instrukcji try ... catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch),
+- [testów jednostkowych](https://pl.wikipedia.org/wiki/Test_jednostkowy) z wykorzystaniem frameworka [Jest](https://jestjs.io/) zgodnie z duchem [TDD](https://pl.wikipedia.org/wiki/Test-driven_development).
 
 &nbsp;
 
