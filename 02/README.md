@@ -5,11 +5,13 @@
 # `#02` JavaScript: Testowanie
 
 
-Twoim zadaniem jest przechwycenie rzucanych błędów wykorzystując strukturę `try ... catch`. Wspomniane błędy pokazują się w zależności od obiektu po kliknięciu lub najechaniu na dany kwadrat.
+W zadaniu znajdziesz kod, który rzuca dwoma błędami. Pokazują się one po kliknięciu lub po najechaniu na dany kwadrat.
 
-Zamiast informacji w konsoli powinieneś ją pokazać użytkownikowi poprzez element HTML o klasie `.alert`, który ma zostać pokazany. W jego wnętrzu ma się ukazać treść błędu.
+Przechwyć rzucane błędy, wykorzystując strukturę `try...catch`. 
 
-PS. Jako zadanie dodatkowe możesz umożliwić zamknięcie elementu `.alert` poprzez klinięcie w przeźroczyte tło.
+Informację o błędzie pokaż użytkownikowi poprzez element HTML o klasie `.alert` (który w tej chwili jest ukryty). W jego wnętrzu ma się ukazać treść błędu.
+
+**Zadanie dodatkowe**: możesz umożliwić zamknięcie elementu `.alert` poprzez kliknięcie w przeźroczyste tło.
 
 
 &nbsp;
