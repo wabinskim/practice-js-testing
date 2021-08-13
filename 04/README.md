@@ -4,13 +4,11 @@
 
 # `#04` JavaScript: Testowanie
 
-To zadanie polega na zaimplementowaniu funkcjonalności na podstawie testów, które są przygotowane w pliku `User.test.js`. Zadanie zostanie wykonane jeśli wszystkie testy będą przechodzić.
-
-PS. Testy możesz uruchomić przy pomocy komenty `npm run test-04`
+Zaimplementuj funkcjonalności na podstawie testów, które są przygotowane w pliku `User.test.js`. Zadanie zostanie wykonane, jeśli wszystkie testy będą przechodzić.
 
 &nbsp;
 
-Jeśli spojrzysz do pliku `package.json` to zobaczysz, że uruchomienie testów dla tego zadania będzie możliwe przy pomocy komendy: `npm run test-03`.
+Jeśli spojrzysz do pliku `package.json`, to zobaczysz, że uruchomienie testów dla tego zadania będzie możliwe przy pomocy komendy: `npm run test-04`.
 
 PS. Pamiętaj, aby zainstalować niezbędne paczki poprzez `npm i`.
 
