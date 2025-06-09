@@ -13,5 +13,8 @@ export default function randomNumber(min, max) {
   if (typeof max !== "number" || !Number.isFinite(Number(max))) {
     throw new Error("Second param must be a number!");
   }
+  if (min > max) {
+    throw new Error("First param must be lower than second!");
+  }
   return Math.random() * (max - min) + min;
 }
