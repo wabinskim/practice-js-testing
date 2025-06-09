@@ -29,3 +29,9 @@ it("should throw exception if first param is bigger than second", () => {
     new Error("First param must be lower than second!")
   );
 });
+
+it("should pass if the result is between min to max", () => {
+  const result = randomNumber(3, 4);
+  expect(result).toBeGreaterThanOrEqual(3);
+  expect(result).toBeLessThanOrEqual(4);
+});
