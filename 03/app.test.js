@@ -23,3 +23,9 @@ it("should throw exception if second param is not a number", () => {
     "Second param must be a number!"
   );
 });
+
+it("should throw exception if first param is bigger than second", () => {
+  expect(() => randomNumber(4, 3)).toThrow(
+    new Error("First param must be lower than second!")
+  );
+});
