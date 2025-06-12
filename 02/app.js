@@ -24,6 +24,11 @@ function setRandomPosition(element, error = null) {
     const alertMsg = alertEl.querySelector(".alert__message");
     alertMsg.textContent = err.message;
     alertEl.classList.remove("alert--hidden");
+    document.addEventListener("click", function (e) {
+      if (e.target === alertEl) {
+        alertEl.classList.add("alert--hidden");
+      }
+    });
   }
 }
 
