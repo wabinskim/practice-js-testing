@@ -9,7 +9,9 @@ it("should reject if first param is not given", () => {
 });
 
 it("should reject if second param is not given", () => {
-  expect(() => randomNumber(1)).toThrow("Second param must be given!");
+  expect(() => randomNumber(1, undefined)).toThrow(
+    "Second param must be given!"
+  );
 });
 
 it("should throw exception if first param is not a number", () => {
