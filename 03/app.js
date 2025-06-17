@@ -5,16 +5,16 @@ export default function randomNumber(min, max) {
   if (max === undefined) {
     throw new Error("Second param must be given!");
   }
-  min = Number(min);
-  max = Number(max);
-  if (typeof min !== "number" || !Number.isFinite(Number(min))) {
+  const parsedMin = Number(min);
+  const parsedMax = Number(max);
+  if (typeof parsedMin !== "number" || !Number.isFinite(Number(parsedMin))) {
     throw new Error("First param must be a number!");
   }
-  if (typeof max !== "number" || !Number.isFinite(Number(max))) {
+  if (typeof parsedMax !== "number" || !Number.isFinite(Number(parsedMax))) {
     throw new Error("Second param must be a number!");
   }
-  if (min > max) {
+  if (parsedMin > parsedMax) {
     throw new Error("First param must be lower than second!");
   }
-  return Math.random() * (max - min) + min;
+  return Math.random() * (parsedMax - parsedMin) + parsedMin;
 }
