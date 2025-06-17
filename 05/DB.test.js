@@ -63,8 +63,15 @@ describe("class DB", () => {
 
       await db1.insert(data1);
       await db1.insert(data2);
+
+      const array = await db1.getRows();
+      expect(array).toEqual([data1, data2]);
+
       const result = await db1.remove(1);
       expect(result).toBe("Item was removed!");
+
+      const array2 = await db1.getRows();
+      expect(array2).toEqual([data2]);
     });
 
     it("should throw error if id has not been found in an array", async () => {
@@ -126,7 +133,7 @@ describe("class DB", () => {
       const data = { id: 1, name: "John" };
       await db1.insert(data);
       const result = await db1.getRows();
-      await expect(result).toEqual([data]);
+      expect(result).toEqual([data]);
     });
   });
 });
